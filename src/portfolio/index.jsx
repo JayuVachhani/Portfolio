@@ -121,7 +121,7 @@ function OrbitNode({ tech, orbitTranslate }) {
 export default function ResumeWebsite() {
   const [activeSection, setActiveSection] = useState('experience')
   const [screenWidth, setScreenWidth] = useState(1440)
-
+  console.log("")
   useEffect(() => {
     if (typeof window === 'undefined') return
 
