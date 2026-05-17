@@ -7,9 +7,9 @@ export default function ExperienceView() {
         {/* Left Sidebar: Profile & Tech Stack */}
         <aside className="lg:col-span-4 flex flex-col gap-gutter">
           {/* Hero Card */}
-          <section className="glass-card p-8 rounded-2xl relative overflow-hidden">
+          <section className="glass-card p-6 md:p-8 rounded-2xl relative overflow-hidden">
             <div className="relative z-10">
-              <h1 className="font-display-lg text-display-lg md:text-headline-lg lg:text-display-lg leading-tight mb-2">
+              <h1 className="font-display-lg text-4xl md:text-4xl lg:text-5xl leading-tight mb-2">
                 Jay <span className="text-primary">Vachhani</span>
               </h1>
               <p className="font-label-md text-label-md text-on-surface-variant mb-8 uppercase tracking-widest">MERN Stack Developer</p>
@@ -45,9 +45,9 @@ export default function ExperienceView() {
           </section>
 
           {/* Tech Stack Bento */}
-          <section className="glass-card p-6 rounded-2xl">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="font-headline-md text-headline-md">Tech I Work With</h2>
+          <section className="glass-card p-5 md:p-6 rounded-2xl">
+            <div className="flex justify-between items-center mb-5 md:mb-6">
+              <h2 className="font-headline-md text-xl md:text-2xl">Tech I Work With</h2>
               <div className="flex gap-1">
                 <span className="w-2 h-2 rounded-full bg-primary"></span>
                 <span className="w-2 h-2 rounded-full bg-secondary"></span>
@@ -78,120 +78,119 @@ export default function ExperienceView() {
         {/* Right Content: Dashboard & Experience */}
         <div className="lg:col-span-8 flex flex-col gap-gutter">
           {/* Stats Row */}
-          <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="glass-card p-5 rounded-2xl text-center flex flex-col items-center gap-3 hover:-translate-y-1 transition-transform">
+          <section className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+            <div className="glass-card p-4 md:p-5 rounded-2xl text-center flex flex-col items-center gap-2 md:gap-3 hover:-translate-y-1 transition-transform">
               <div className="w-12 h-12 rounded-full bg-error-container/20 flex items-center justify-center">
                 <span className="material-symbols-outlined text-error" style={{ fontVariationSettings: "'FILL' 1" }}>bug_report</span>
               </div>
               <div>
-                <h3 className="font-headline-lg text-headline-lg text-on-surface">30%</h3>
+                <h3 className="font-headline-lg text-2xl md:text-3xl text-on-surface">30%</h3>
                 <p className="font-label-md text-[10px] text-on-surface-variant uppercase tracking-widest">Bug Reduction</p>
               </div>
             </div>
-            <div className="glass-card p-5 rounded-2xl text-center flex flex-col items-center gap-3 hover:-translate-y-1 transition-transform">
+            <div className="glass-card p-4 md:p-5 rounded-2xl text-center flex flex-col items-center gap-2 md:gap-3 hover:-translate-y-1 transition-transform">
               <div className="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>bolt</span>
               </div>
               <div>
-                <h3 className="font-headline-lg text-headline-lg text-on-surface">40%</h3>
+                <h3 className="font-headline-lg text-2xl md:text-3xl text-on-surface">40%</h3>
                 <p className="font-label-md text-[10px] text-on-surface-variant uppercase tracking-widest">Performance Gain</p>
               </div>
             </div>
-            <div className="glass-card p-5 rounded-2xl text-center flex flex-col items-center gap-3 hover:-translate-y-1 transition-transform">
+            <div className="glass-card p-4 md:p-5 rounded-2xl text-center flex flex-col items-center gap-2 md:gap-3 hover:-translate-y-1 transition-transform">
               <div className="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center">
                 <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>rocket_launch</span>
               </div>
               <div>
-                <h3 className="font-headline-lg text-headline-lg text-on-surface">50%</h3>
+                <h3 className="font-headline-lg text-2xl md:text-3xl text-on-surface">50%</h3>
                 <p className="font-label-md text-[10px] text-on-surface-variant uppercase tracking-widest">Faster Delivery</p>
               </div>
             </div>
-            <div className="glass-card p-5 rounded-2xl text-center flex flex-col items-center gap-3 hover:-translate-y-1 transition-transform">
+            <div className="glass-card p-4 md:p-5 rounded-2xl text-center flex flex-col items-center gap-2 md:gap-3 hover:-translate-y-1 transition-transform">
               <div className="w-12 h-12 rounded-full bg-tertiary-fixed-dim/20 flex items-center justify-center">
                 <span className="material-symbols-outlined text-tertiary" style={{ fontVariationSettings: "'FILL' 1" }}>group</span>
               </div>
               <div>
-                <h3 className="font-headline-lg text-headline-lg text-on-surface">100k+</h3>
+                <h3 className="font-headline-lg text-2xl md:text-3xl text-on-surface">100k+</h3>
                 <p className="font-label-md text-[10px] text-on-surface-variant uppercase tracking-widest">Users Served</p>
               </div>
             </div>
           </section>
 
           {/* Experience Timeline Section */}
-          <section className="glass-card p-8 rounded-2xl">
-            <div className="flex items-center justify-between mb-10">
-              <div className="flex items-center gap-4">
-                <span className="material-symbols-outlined text-primary text-[32px]">history</span>
-                <h2 className="font-headline-lg text-headline-lg">Work Experience</h2>
+          <section className="glass-card p-5 md:p-8 rounded-2xl">
+            <div className="flex items-center justify-between mb-8 md:mb-10">
+              <div className="flex items-center gap-3 md:gap-4">
+                <span className="material-symbols-outlined text-primary text-[28px] md:text-[32px]">history</span>
+                <h2 className="font-headline-lg text-2xl md:text-3xl">Work Experience</h2>
               </div>
             </div>
 
             {/* Timeline Content */}
-            <div className="relative pl-8">
-              <div className="absolute left-0 top-0 bottom-0 w-[2px] timeline-line"></div>
+            <div className="relative">
+              <div className="absolute left-[11px] md:left-[15px] top-2 bottom-0 w-[2px] timeline-line"></div>
 
               {/* Role 1 */}
-              <div className="relative mb-16 group">
+              <div className="relative pl-8 md:pl-12 mb-12 md:mb-16 group">
                 {/* Timeline Dot */}
-                <div className="absolute -left-[37px] top-1 w-[12px] h-[12px] rounded-full bg-primary glow-cyan border-[3px] border-background"></div>
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
+                <div className="absolute left-[6px] md:left-[10px] top-[6px] w-[12px] h-[12px] rounded-full bg-primary glow-cyan border-[3px] border-background"></div>
+                <div className="flex flex-col md:flex-row md:items-start justify-between gap-2 md:gap-4 mb-4">
                   <div>
-                    <h3 className="font-headline-md text-headline-md text-primary">Agile Infoways</h3>
-                    <p className="font-label-md text-label-md text-on-surface-variant mt-1">Software Developer • Ahmedabad</p>
+                    <h3 className="font-headline-md text-xl md:text-2xl text-primary">Agile Infoways</h3>
+                    <p className="font-label-md text-sm md:text-base text-on-surface-variant mt-1">Software Developer • Ahmedabad</p>
                   </div>
-                  <span className="bg-surface-container px-3 py-1 rounded-full font-label-md text-[12px] text-on-surface-variant border border-outline-variant/30 h-fit">Oct 2022 — Present</span>
+                  <span className="bg-surface-container px-3 py-1 rounded-full font-label-md text-[11px] md:text-[12px] text-on-surface-variant border border-outline-variant/30 h-fit self-start">Oct 2022 — Present</span>
                 </div>
-                <ul className="space-y-4 mb-6">
-                  <li className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary text-[18px] mt-1">check_circle</span>
-                    <p className="font-body-md text-on-surface leading-relaxed">Built scalable frontend systems for healthcare platforms serving <strong>100k+ users</strong> with high availability.</p>
+                <ul className="space-y-3 md:space-y-4 mb-5 md:mb-6">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] md:text-[18px] mt-1">check_circle</span>
+                    <p className="font-body-md text-sm md:text-base text-on-surface leading-relaxed">Built scalable frontend systems for healthcare platforms serving <strong>100k+ users</strong> with high availability.</p>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary text-[18px] mt-1">check_circle</span>
-                    <p className="font-body-md text-on-surface leading-relaxed">Delivered healthcare, real estate, and service-booking applications with configurable <strong>white-label architecture</strong>.</p>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] md:text-[18px] mt-1">check_circle</span>
+                    <p className="font-body-md text-sm md:text-base text-on-surface leading-relaxed">Delivered healthcare, real estate, and service-booking applications with configurable <strong>white-label architecture</strong>.</p>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary text-[18px] mt-1">check_circle</span>
-                    <p className="font-body-md text-on-surface leading-relaxed">Improved application performance by <strong>40%</strong> and reduced bug frequency by <strong>30%</strong> through optimized state management.</p>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] md:text-[18px] mt-1">check_circle</span>
+                    <p className="font-body-md text-sm md:text-base text-on-surface leading-relaxed">Improved application performance by <strong>40%</strong> and reduced bug frequency by <strong>30%</strong> through optimized state management.</p>
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-primary/40 text-primary-fixed">React.js</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-primary/40 text-primary-fixed">Next.js</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-primary/40 text-primary-fixed">Nestjs</span>
-
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-secondary/40 text-secondary">MongoDB</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-secondary/40 text-secondary">Redis</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-tertiary/40">SSE</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-primary/40 text-primary-fixed">Python</span>
-
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-primary/40 text-primary-fixed">React.js</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-primary/40 text-primary-fixed">Next.js</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-primary/40 text-primary-fixed">Nestjs</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-secondary/40 text-secondary">MongoDB</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-secondary/40 text-secondary">Redis</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-tertiary/40">SSE</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-primary/40 text-primary-fixed">Python</span>
                 </div>
               </div>
 
               {/* Role 2 */}
-              <div className="relative group">
-                <div className="absolute -left-[37px] top-1 w-[12px] h-[12px] rounded-full bg-surface-container-highest border-[3px] border-background group-hover:bg-primary transition-colors"></div>
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
+              <div className="relative pl-8 md:pl-12 group">
+                {/* Timeline Dot */}
+                <div className="absolute left-[6px] md:left-[10px] top-[6px] w-[12px] h-[12px] rounded-full bg-surface-container-highest border-[3px] border-background group-hover:bg-primary transition-colors"></div>
+                <div className="flex flex-col md:flex-row md:items-start justify-between gap-2 md:gap-4 mb-4">
                   <div>
-                    <h3 className="font-headline-md text-headline-md text-primary opacity-80 group-hover:opacity-100 transition-opacity">Tata Consultancy Services (TCS)</h3>
-                    <p className="font-label-md text-label-md text-on-surface-variant mt-1">Assistant System Engineer • Bangalore</p>
+                    <h3 className="font-headline-md text-xl md:text-2xl text-primary opacity-80 group-hover:opacity-100 transition-opacity">Tata Consultancy Services (TCS)</h3>
+                    <p className="font-label-md text-sm md:text-base text-on-surface-variant mt-1">Assistant System Engineer • Bangalore</p>
                   </div>
-                  <span className="bg-surface-container px-3 py-1 rounded-full font-label-md text-[12px] text-on-surface-variant border border-outline-variant/30 h-fit">Nov 2020 — Oct 2022</span>
+                  <span className="bg-surface-container px-3 py-1 rounded-full font-label-md text-[11px] md:text-[12px] text-on-surface-variant border border-outline-variant/30 h-fit self-start">Nov 2020 — Oct 2022</span>
                 </div>
-                <ul className="space-y-4 mb-6">
-                  <li className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary text-[18px] mt-1">check_circle</span>
-                    <p className="font-body-md text-on-surface leading-relaxed">Automated repetitive operational workflows using <strong>Python scripts</strong>, reducing manual effort by 60%.</p>
+                <ul className="space-y-3 md:space-y-4 mb-5 md:mb-6">
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] md:text-[18px] mt-1">check_circle</span>
+                    <p className="font-body-md text-sm md:text-base text-on-surface leading-relaxed">Automated repetitive operational workflows using <strong>Python scripts</strong>, reducing manual effort by 60%.</p>
                   </li>
-                  <li className="flex items-start gap-3">
-                    <span className="material-symbols-outlined text-primary text-[18px] mt-1">check_circle</span>
-                    <p className="font-body-md text-on-surface leading-relaxed">Architected enterprise React-based workflows for internal resource management and deployment tracking.</p>
+                  <li className="flex items-start gap-2 md:gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] md:text-[18px] mt-1">check_circle</span>
+                    <p className="font-body-md text-sm md:text-base text-on-surface leading-relaxed">Architected enterprise React-based workflows for internal resource management and deployment tracking.</p>
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-primary/40 text-primary-fixed">React.js</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-tertiary/40 text-tertiary">Python</span>
-                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[12px] font-label-md border border-outline-variant/40">REST APIs</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-primary/40 text-primary-fixed">React.js</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-tertiary/40 text-tertiary">Python</span>
+                  <span className="px-3 py-1 bg-[#1e293b] text-[#94a3b8] rounded-full text-[11px] md:text-[12px] font-label-md border border-outline-variant/40">REST APIs</span>
                 </div>
               </div>
 
