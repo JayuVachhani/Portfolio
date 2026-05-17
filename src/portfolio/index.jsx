@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MobileNav from './components/MobileNav';
@@ -9,6 +9,10 @@ import ContactView from './views/ContactView';
 
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState('experience');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTab]);
 
   const renderView = () => {
     switch (activeTab) {
